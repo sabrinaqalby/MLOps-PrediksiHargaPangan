@@ -62,10 +62,6 @@ python src/hello.py
 
 Keluaran yang diharapkan: `Hello MLOps`
 
-## Tumpukan Teknologi
-
-GitHub dan GitHub Codespaces untuk version control dan lingkungan pengembangan. Python, Pandas, dan Scikit-learn untuk pengolahan data dan pemodelan. DVC untuk pemberian versi data, MLflow untuk pelacakan eksperimen, Docker dan GitHub Actions untuk kontainerisasi dan otomasi, serta Prometheus dan Grafana untuk pemantauan.
-
 ## Lisensi
 
 MIT License — lihat berkas [LICENSE](LICENSE).
