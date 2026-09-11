@@ -64,4 +64,4 @@ Keluaran yang diharapkan: `Hello MLOps`
 
 ## Lisensi
 
-MIT License — lihat berkas [LICENSE](LICENSE).
+MIT License: lihat berkas [LICENSE](LICENSE).
