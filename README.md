@@ -2,11 +2,11 @@
 
 Sistem prediksi dan peringatan dini disparitas harga pangan antar daerah di Indonesia.
 
-Repositori ini merupakan proyek mata kuliah Machine Learning Operations (MLOps), Fakultas Ilmu Komputer, Universitas Brawijaya. Proyek dikembangkan secara bertahap melalui rangkaian Lembar Kerja (LK-01 sampai LK-14).
+Repositori ini merupakan proyek mata kuliah Machine Learning Operations (MLOps), Fakultas Ilmu Komputer, Universitas Brawijaya. Proyek dikembangkan secara bertahap melalui rangkaian Lembar Kerja.
 
 ## Latar Belakang
 
-Harga bahan pangan pokok berubah setiap hari dan berbeda-beda antar daerah. Sistem pemantauan yang ada saat ini bersifat pelaporan, bukan peramalan — memberi tahu harga hari ini, tetapi tidak memperkirakan harga minggu depan. Akibatnya intervensi pemerintah cenderung reaktif, dilakukan setelah harga terlanjur melonjak.
+Harga bahan pangan pokok berubah setiap hari dan berbeda-beda antar daerah. Sistem pemantauan yang ada saat ini bersifat pelaporan, bukan peramalan yang memberi tahu harga hari ini, tetapi tidak memperkirakan harga minggu depan. Akibatnya intervensi pemerintah cenderung reaktif, dilakukan setelah harga terlanjur melonjak.
 
 Proyek ini membangun sistem machine learning end-to-end yang memprediksi harga komoditas pangan per wilayah dan memberi peringatan dini ketika lonjakan harga diperkirakan terjadi.
 
@@ -36,7 +36,7 @@ Data bersifat dinamis dan diperbarui setiap hari, sehingga menuntut mekanisme pe
 └── tests/            Pengujian
 ```
 
-Isi folder `data/` dan `models/` sengaja diabaikan oleh Git melalui `.gitignore`. Git dirancang untuk mengelola kode, bukan berkas data berukuran besar. Pengelolaan versi data akan ditangani menggunakan DVC pada tahap LK-05. Berkas `.gitkeep` dipertahankan agar struktur folder tetap terbaca meskipun isinya kosong.
+Isi folder `data/` dan `models/` sengaja diabaikan oleh Git melalui `.gitignore`. Git dirancang untuk mengelola kode, bukan berkas data berukuran besar. Pengelolaan versi data akan ditangani menggunakan DVC. Berkas `.gitkeep` dipertahankan agar struktur folder tetap terbaca meskipun isinya kosong.
 
 ## Menjalankan Proyek
 
@@ -44,7 +44,7 @@ Isi folder `data/` dan `models/` sengaja diabaikan oleh Git melalui `.gitignore`
 
 1. Klik tombol **Code** pada halaman repositori
 2. Pilih tab **Codespaces**, lalu **Create codespace on main**
-3. Tunggu proses pembangunan selesai — dependencies terpasang otomatis melalui `devcontainer.json`
+3. Tunggu proses pembangunan selesai dan dependencies terpasang otomatis melalui `devcontainer.json`
 
 ### Melalui lingkungan lokal
 
