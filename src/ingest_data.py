@@ -22,7 +22,7 @@ KOMODITAS = {
     13: "Bawang Merah",
 }
 
-# Wilayah yang dibandingkan: Kota Malang dan rata-rata nasional.
+# Nasional tidak mengirim kode wilayah sama sekali
 WILAYAH = {
     "Kota Malang": {"kode_provinsi": "35", "kode_kab_kota": "3573"},
     "Nasional": {},
@@ -42,22 +42,20 @@ logging.basicConfig(
 
 
 def ambil_data(tanggal, pembanding, nama_wilayah):
-    """Memanggil API SP2KP untuk satu wilayah pada satu tanggal.
-
-    Args:
-        tanggal (str): Tanggal harga, format YYYY-MM-DD.
-        pembanding (str): Tanggal pembanding, format YYYY-MM-DD.
-        nama_wilayah (str): Kunci pada dict WILAYAH.
-
-    Returns:
-        tuple: (list data mentah, status code HTTP) atau (None, None)
-        jika seluruh percobaan gagal.
+    """Ambil data satu wilayah pada satu tanggal.
+    API kadang gagal atau menolak, jadi percobaan diulang sampai
+    tiga kali sebelum menyerah. Fungsi ini mengembalikan (data, status code),
+    atau (None, None) kalau semuanya gagal.
     """
+
+    # tanggal_pembanding wajib dikirim, walau hasil perbandingannya tidak dipakai
     payload = {
         "tanggal": tanggal,
         "tanggal_pembanding": pembanding,
         **WILAYAH[nama_wilayah],
     }
+
+    # Meniru request dari halaman SP2KP
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Referer": "https://sp2kp.kemendag.go.id/",
@@ -101,17 +99,12 @@ def ambil_data(tanggal, pembanding, nama_wilayah):
 
 
 def susun_baris(data_mentah, nama_wilayah, tanggal, status_http):
-    """Menyaring komoditas yang dipantau dan menyusun baris data.
-
-    Args:
-        data_mentah (list): Daftar komoditas dari respons API.
-        nama_wilayah (str): Nama wilayah sumber data.
-        tanggal (str): Tanggal harga.
-        status_http (int): Status code HTTP saat pengambilan.
-
-    Returns:
-        list: Daftar dict siap dijadikan DataFrame.
+    """Saring komoditas yang dipantau lalu susun jadi baris tabel.
+    Respons API berisi 17 komoditas, yang dipakai cuma 5. Kolom
+    source_url dan accessed_at ditambahkan supaya asal dan waktu
+    tiap baris bisa ditelusuri.
     """
+
     waktu_ambil = datetime.now(WIB).isoformat(timespec="seconds")
     baris = []
 
@@ -138,15 +131,10 @@ def susun_baris(data_mentah, nama_wilayah, tanggal, status_http):
 
 
 def simpan(df, tanggal):
-    """Menyimpan DataFrame ke CSV bertimestamp beserta metadatanya.
-
-    Args:
-        df (pandas.DataFrame): Data yang akan disimpan.
-        tanggal (str): Tanggal harga, dipakai pada nama file.
-
-    Returns:
-        pathlib.Path: Lokasi file CSV yang dibuat.
+    """Tulis data ke CSV, plus file JSON berisi metadatanya.
+    Nama file: sp2kp_<tanggal data>_<waktu ambil>.csv
     """
+
     FOLDER_OUTPUT.mkdir(parents=True, exist_ok=True)
     stempel = datetime.now(WIB).strftime("%Y%m%d_%H%M%S")
     nama_file = f"sp2kp_{tanggal.replace('-', '')}_{stempel}.csv"
@@ -170,11 +158,8 @@ def simpan(df, tanggal):
 
 
 def baca_argumen():
-    """Membaca argumen baris perintah.
+    """Baca opsi --tanggal dan --pembanding dari baris perintah."""
 
-    Returns:
-        argparse.Namespace: Argumen tanggal dan tanggal pembanding.
-    """
     hari_ini = datetime.now(WIB).date()
     parser = argparse.ArgumentParser(
         description="Mengambil data harga pangan dari API SP2KP."
@@ -193,7 +178,8 @@ def baca_argumen():
 
 
 def main():
-    """Menjalankan proses pengambilan data untuk seluruh wilayah."""
+    """Ambil data semua wilayah, lalu simpan jadi satu file."""
+
     argumen = baca_argumen()
     semua_baris = []
 
