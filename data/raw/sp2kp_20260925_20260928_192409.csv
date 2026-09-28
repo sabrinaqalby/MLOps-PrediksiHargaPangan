@@ -1,0 +1,11 @@
+tanggal,wilayah,komoditas,satuan,harga,sumber,source_url,accessed_at,http_status
+2026-09-25,Kota Malang,Beras Medium,kg,14400,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:06+07:00,200
+2026-09-25,Kota Malang,Telur Ayam Ras,kg,24500,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:06+07:00,200
+2026-09-25,Kota Malang,Cabai Merah Keriting,kg,43000,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:06+07:00,200
+2026-09-25,Kota Malang,Cabai Rawit Merah,kg,60000,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:06+07:00,200
+2026-09-25,Kota Malang,Bawang Merah,kg,25000,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:06+07:00,200
+2026-09-25,Nasional,Beras Medium,kg,14026,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:08+07:00,200
+2026-09-25,Nasional,Telur Ayam Ras,kg,27110,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:08+07:00,200
+2026-09-25,Nasional,Cabai Merah Keriting,kg,56325,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:08+07:00,200
+2026-09-25,Nasional,Cabai Rawit Merah,kg,75473,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:08+07:00,200
+2026-09-25,Nasional,Bawang Merah,kg,32611,sp2kp,https://api-sp2kp.kemendag.go.id/report/api/average-price/generate-perbandingan-harga,2026-09-28T19:24:08+07:00,200

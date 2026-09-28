@@ -62,6 +62,57 @@ python src/hello.py
 
 Keluaran yang diharapkan: `Hello MLOps`
 
+## Pengambilan dan Prapemrosesan Data
+
+### Menjalankan pengambilan data
+
+```bash
+# Ambil data hari ini
+python src/ingest_data.py
+
+# Ambil data tanggal tertentu
+python src/ingest_data.py --tanggal 2026-09-27 --pembanding 2026-09-26
+```
+
+Hasilnya disimpan di `data/raw/` dengan nama
+`sp2kp_<tanggal-data>_<waktu-pengambilan>.csv`. Karena nama file
+memuat waktu pengambilan, menjalankan script berulang kali tidak
+menimpa data sebelumnya. Setiap file CSV disertai file `.json` berisi
+metadata: `source_url`, `accessed_at`, `tanggal_data`, dan
+`record_count`.
+
+Script mencoba ulang hingga 3 kali bila koneksi gagal, dengan jeda 5
+detik antar percobaan.
+
+Kolom pada data mentah: `tanggal`, `wilayah`, `komoditas`, `satuan`,
+`harga`, `sumber`, `source_url`, `accessed_at`, `http_status`.
+
+### Menjalankan prapemrosesan
+
+```bash
+python src/preprocess.py
+```
+
+Script membaca seluruh file di `data/raw/`, lalu:
+
+1. Menyeragamkan tipe data dan penulisan teks
+2. Mengubah harga bernilai 0 menjadi kosong. API mengembalikan 0 pada
+   akhir pekan dan hari libur karena tidak ada survei pasar
+3. Membuang baris yang kehilangan kolom kunci
+4. Membuang duplikat, menyisakan baris dengan waktu pengambilan
+   terbaru
+5. Mengisi harga kosong dengan interpolasi, maksimal 3 hari berturut-
+   turut, ditandai pada kolom `hasil_interpolasi`
+6. Menandai perubahan harga di atas 50% pada kolom `lonjakan_ekstrem`
+
+Hasilnya disimpan ke `data/processed/harga_bersih.csv` dengan kolom:
+`tanggal`, `wilayah`, `komoditas`, `satuan`, `harga`,
+`hasil_interpolasi`, `perubahan_persen`, `lonjakan_ekstrem`, `sumber`.
+
+### Catatan
+
+Sampel data mentah disertakan di data/raw/ agar hasil ingestion dapat diperiksa langsung dari repositori.
+
 ## Lisensi
 
 MIT License: lihat berkas [LICENSE](LICENSE).
