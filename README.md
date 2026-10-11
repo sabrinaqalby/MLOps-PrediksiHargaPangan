@@ -116,3 +116,45 @@ Sampel data mentah disertakan di data/raw/ agar hasil ingestion dapat diperiksa 
 ## Lisensi
 
 MIT License: lihat berkas [LICENSE](LICENSE).
+
+## Versioning Data dengan DVC
+
+Dataset tidak disimpan langsung di Git, melainkan dilacak DVC. Git
+hanya menyimpan file penunjuk `data/raw.dvc` berisi hash, sedangkan
+isi datanya disimpan di remote storage.
+
+### Kenapa versioning data penting
+
+Model yang sama bisa menghasilkan prediksi berbeda kalau dilatih
+dengan data yang berbeda. Tanpa catatan versi data, hasil pelatihan
+tidak bisa diulang dan kesalahan prediksi sulit ditelusuri sumbernya.
+
+Data proyek ini bertambah setiap hari, jadi isi `data/raw/` hari ini
+tidak sama dengan minggu lalu. Dengan DVC, setiap commit Git terhubung
+ke versi data tertentu lewat hash di `data/raw.dvc`. Artinya setiap
+model bisa ditelusuri dilatih memakai data yang mana, dan versi lama
+bisa dipulihkan kapan saja.
+
+### Alur menambah versi data
+
+```bash
+python src/ingest_data.py      # ambil data baru
+dvc status                     # cek perubahan
+dvc add data/raw               # catat versi baru
+git add data/raw.dvc
+git commit -m "feat: data versi <tanggal>"
+dvc push                       # kirim ke remote
+```
+
+### Memulihkan versi lama
+
+```bash
+git checkout <commit-hash>
+dvc pull
+```
+
+### Melihat perbedaan antar versi
+
+```bash
+dvc diff HEAD~1 HEAD
+```
