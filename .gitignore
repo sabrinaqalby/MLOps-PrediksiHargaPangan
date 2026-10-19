@@ -221,4 +221,6 @@ __marimo__/
 data/processed/*
 models/*
 !data/processed/.gitkeep
-!models/.gitkeep
+!models/.gitkeepmlruns/
+mlflow.db
+mlartifacts/
