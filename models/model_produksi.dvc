@@ -1,0 +1,6 @@
+outs:
+- md5: 8a4154c29b23dec43011c0112c1ba559.dir
+  size: 8509506
+  nfiles: 8
+  hash: md5
+  path: model_produksi

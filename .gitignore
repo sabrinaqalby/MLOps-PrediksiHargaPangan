@@ -221,6 +221,11 @@ __marimo__/
 data/processed/*
 models/*
 !data/processed/.gitkeep
-!models/.gitkeepmlruns/
+!models/.gitkeep
+mlruns/
 mlflow.db
 mlartifacts/
+
+!models/model_produksi.yaml
+!models/model_produksi.dvc
+!models/.gitignore

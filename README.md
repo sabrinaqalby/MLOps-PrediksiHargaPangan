@@ -158,3 +158,33 @@ dvc pull
 ```bash
 dvc diff HEAD~1 HEAD
 ```
+
+## Model yang Aktif Digunakan
+
+| | Keterangan |
+|---|---|
+| Nama di registry | `model-harga-pangan-malang` |
+| Versi aktif | Version 2 |
+| Alias | `production` |
+| Run asal | `rf_v3_20261102` |
+| Versi data (DVC) | `16642fe369c112dcf45f005a4b97b7b7` |
+
+Version 2 dipilih karena RMSE-nya paling rendah, 5543,4 berbanding 5679,8
+pada Version 1, dan R²-nya paling tinggi, 0,907 berbanding 0,902. RMSE
+dipakai sebagai patokan utama karena sistem ini ditujukan sebagai peringatan
+dini lonjakan harga, sehingga kesalahan prediksi yang besar lebih merugikan
+daripada banyaknya kesalahan kecil.
+
+Version 2 memang sedikit kalah pada MAE dan MAPE. Itu konsekuensi dari pohon
+yang dibatasi lebih dangkal: prediksinya lebih konservatif, sehingga meleset
+tipis lebih sering tapi jarang meleset jauh.
+
+Layanan inferensi memanggil model lewat alias, bukan nomor versi:
+
+    mlflow.pyfunc.load_model("models:/model-harga-pangan-malang@production")
+
+Dengan begitu pergantian versi model cukup dilakukan dengan memindahkan alias
+`production` ke versi baru, tanpa mengubah kode.
+
+Metadata versi aktif tersimpan di `models/model_produksi.yaml`, dan artefak
+modelnya dilacak DVC lewat `models/model_produksi.dvc`.

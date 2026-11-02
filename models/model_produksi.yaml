@@ -1,0 +1,32 @@
+model:
+  nama_registry: model-harga-pangan-malang
+  versi: 2
+  alias: production
+  tahap: Production
+  uri: models:/model-harga-pangan-malang@production
+  run_id: 2ac099ad93814ee1a6958e78978d5602
+  nama_run: rf_v3_20261102
+  folder_artefak: models/model_produksi
+data:
+  berkas_penunjuk: data/raw.dvc
+  md5: 16642fe369c112dcf45f005a4b97b7b7.dir
+  berkas_olahan: data/processed/harga_bersih.csv
+  sumber: API SP2KP Kemendag
+parameter:
+  algoritma: RandomForestRegressor
+  baris_latih: '188'
+  baris_uji: '47'
+  horizon_hari: '7'
+  jumlah_fitur: '9'
+  max_depth: '4'
+  min_samples_leaf: '5'
+  n_estimators: '500'
+  versi_data_dvc: 16642fe369c112dcf45f005a4b97b7b7.dir
+metrik:
+  mae: 3332.786
+  mape: 7.4526
+  perbaikan_vs_naif_persen: -10.4651
+  r2: 0.9071
+  rmse: 5543.3963
+  rmse_naif: 5018.2324
+dicatat_pada: '2026-11-02T11:20:15+07:00'
