@@ -14,7 +14,7 @@ env:
   VERSI_PYTHON: "3.12"
   MLFLOW_TRACKING_URI: sqlite:///mlflow.db
   # Hyperparameter pelatihan dikumpulkan di satu tempat supaya perubahannya terlihat jelas pada riwayat commit
-  HYPERPARAMETER: "--n-estimators 500 --max-depth 4 --min-samples-leaf 5"
+  HYPERPARAMETER: "--n-estimators 600 --max-depth 4 --min-samples-leaf 5"
 
 jobs:
   testing:
