@@ -1,0 +1,14 @@
+gerbang_staging:
+  mape_maksimum: 10.0
+  r2_minimum: 0.85
+  rmse_maksimum: 7000.0
+
+model_acuan:
+  keterangan: Version 2 hasil LK-07, model berstatus Production
+  rmse: 5543.4
+  toleransi_penurunan_persen: 5.0
+
+target_produksi:
+  sumber: LK-01 bagian 4.1 Metrik Teknis
+  mape_maksimum: 5.0
+  keunggulan_vs_naif_minimum_persen: 15.0

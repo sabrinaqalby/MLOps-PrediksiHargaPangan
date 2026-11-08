@@ -221,6 +221,7 @@ __marimo__/
 data/processed/*
 models/*
 !data/processed/.gitkeep
+!data/processed/harga_bersih.csv
 !models/.gitkeep
 mlruns/
 mlflow.db

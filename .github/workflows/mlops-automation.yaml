@@ -1,0 +1,140 @@
+name: MLOps Pipeline Automation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  VERSI_PYTHON: "3.12"
+  MLFLOW_TRACKING_URI: sqlite:///mlflow.db
+  # Hyperparameter pelatihan dikumpulkan di satu tempat supaya perubahannya terlihat jelas pada riwayat commit
+  HYPERPARAMETER: "--n-estimators 500 --max-depth 4 --min-samples-leaf 5"
+
+jobs:
+  testing:
+    name: Tahap 1 - Pengujian Otomatis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.VERSI_PYTHON }}
+          cache: pip
+
+      - name: Pasang dependensi
+        run: pip install -r requirements.txt
+
+      - name: Jalankan pengujian unit dan integrasi
+        run: pytest tests/ -v --tb=short
+
+  training:
+    name: Tahap 2 - Pelatihan Ulang Model
+    needs: testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.VERSI_PYTHON }}
+          cache: pip
+
+      - name: Pasang dependensi
+        run: pip install -r requirements.txt
+
+      - name: Ambil data terbaru dari remote DVC
+        continue-on-error: true
+        run: dvc pull data/raw.dvc
+
+      - name: Siapkan data latih
+        run: |
+          if [ -n "$(ls -A data/raw 2>/dev/null)" ]; then
+            echo "Data mentah tersedia dari DVC, prapemrosesan dijalankan ulang."
+            python src/preprocess.py
+          else
+            echo "Remote DVC tidak terjangkau dari runner."
+            echo "Memakai snapshot data/processed/harga_bersih.csv dari repositori."
+          fi
+          test -s data/processed/harga_bersih.csv
+
+      - name: Catat versi data yang dipakai
+        run: |
+          {
+            echo "### Versi data yang dipakai pelatihan"
+            echo ""
+            echo '```'
+            cat data/raw.dvc
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Latih ulang model
+        run: |
+          python src/train.py ${{ env.HYPERPARAMETER }} \
+            --nama-run ci_${{ github.run_number }}
+
+      - name: Simpan hasil pelatihan
+        uses: actions/upload-artifact@v4
+        with:
+          name: hasil-pelatihan
+          path: |
+            mlflow.db
+            mlruns
+            mlartifacts
+          if-no-files-found: warn
+          retention-days: 7
+
+  registry:
+    name: Tahap 3 - Validasi dan Promosi ke Staging
+    needs: training
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.VERSI_PYTHON }}
+          cache: pip
+
+      - name: Pasang dependensi
+        run: pip install -r requirements.txt
+
+      - name: Ambil hasil pelatihan dari tahap sebelumnya
+        uses: actions/download-artifact@v4
+        with:
+          name: hasil-pelatihan
+
+      - name: Periksa artefak yang diterima
+        run: |
+          ls -la mlflow.db
+          ls -R mlartifacts | head -20
+
+      - name: Validasi ambang batas dan promosikan ke Staging
+        run: python src/evaluate.py
+
+      - name: Tampilkan isi Model Registry
+        run: python src/kelola_registry.py --lihat
+
+      - name: Simpan Model Registry
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-registry-staging
+          path: |
+            mlflow.db
+            mlruns
+            mlartifacts
+          if-no-files-found: warn
+          retention-days: 7
