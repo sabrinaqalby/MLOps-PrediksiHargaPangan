@@ -1,5 +1,19 @@
-pandas
-scikit-learn
-jupyter
-requests
-beautifulsoup4
+# Dependensi proyek prediksi harga pangan.
+# Versi dibatasi agar hasil di Codespaces dan di GitHub Actions sama.
+
+pandas>=2.2,<3
+numpy>=1.26
+scikit-learn>=1.5
+requests>=2.32
+
+# Pelacakan eksperimen dan Model Registry
+mlflow>=3.1,<4
+
+# Versioning data
+dvc>=3.50,<4
+
+# Pembacaan berkas ambang batas model
+PyYAML>=6.0
+
+# Pengujian otomatis pada pipeline CI
+pytest>=8.0

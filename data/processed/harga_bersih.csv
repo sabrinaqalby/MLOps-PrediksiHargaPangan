@@ -1,0 +1,611 @@
+tanggal,wilayah,komoditas,satuan,harga,hasil_interpolasi,perubahan_persen,lonjakan_ekstrem,sumber
+2026-08-20,Kota Malang,Bawang Merah,kg,28000,False,,False,sp2kp
+2026-08-20,Kota Malang,Beras Medium,kg,13850,False,,False,sp2kp
+2026-08-20,Kota Malang,Cabai Merah Keriting,kg,30000,False,,False,sp2kp
+2026-08-20,Kota Malang,Cabai Rawit Merah,kg,47000,False,,False,sp2kp
+2026-08-20,Kota Malang,Telur Ayam Ras,kg,22000,False,,False,sp2kp
+2026-08-20,Nasional,Bawang Merah,kg,33721,False,,False,sp2kp
+2026-08-20,Nasional,Beras Medium,kg,13910,False,,False,sp2kp
+2026-08-20,Nasional,Cabai Merah Keriting,kg,40133,False,,False,sp2kp
+2026-08-20,Nasional,Cabai Rawit Merah,kg,56480,False,,False,sp2kp
+2026-08-20,Nasional,Telur Ayam Ras,kg,26235,False,,False,sp2kp
+2026-08-21,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-08-21,Kota Malang,Beras Medium,kg,13850,False,0.0,False,sp2kp
+2026-08-21,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-08-21,Kota Malang,Cabai Rawit Merah,kg,47000,False,0.0,False,sp2kp
+2026-08-21,Kota Malang,Telur Ayam Ras,kg,22000,False,0.0,False,sp2kp
+2026-08-21,Nasional,Bawang Merah,kg,33642,False,-0.23,False,sp2kp
+2026-08-21,Nasional,Beras Medium,kg,13913,False,0.02,False,sp2kp
+2026-08-21,Nasional,Cabai Merah Keriting,kg,40113,False,-0.05,False,sp2kp
+2026-08-21,Nasional,Cabai Rawit Merah,kg,57204,False,1.28,False,sp2kp
+2026-08-21,Nasional,Telur Ayam Ras,kg,26215,False,-0.08,False,sp2kp
+2026-08-22,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-08-22,Kota Malang,Beras Medium,kg,13850,True,0.0,False,sp2kp
+2026-08-22,Kota Malang,Cabai Merah Keriting,kg,30000,True,0.0,False,sp2kp
+2026-08-22,Kota Malang,Cabai Rawit Merah,kg,47000,True,0.0,False,sp2kp
+2026-08-22,Kota Malang,Telur Ayam Ras,kg,22000,True,0.0,False,sp2kp
+2026-08-22,Nasional,Bawang Merah,kg,33644,True,0.01,False,sp2kp
+2026-08-22,Nasional,Beras Medium,kg,13917,True,0.03,False,sp2kp
+2026-08-22,Nasional,Cabai Merah Keriting,kg,40216,True,0.26,False,sp2kp
+2026-08-22,Nasional,Cabai Rawit Merah,kg,57832,True,1.1,False,sp2kp
+2026-08-22,Nasional,Telur Ayam Ras,kg,26237,True,0.08,False,sp2kp
+2026-08-23,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-08-23,Kota Malang,Beras Medium,kg,13850,True,0.0,False,sp2kp
+2026-08-23,Kota Malang,Cabai Merah Keriting,kg,30000,True,0.0,False,sp2kp
+2026-08-23,Kota Malang,Cabai Rawit Merah,kg,47000,True,0.0,False,sp2kp
+2026-08-23,Kota Malang,Telur Ayam Ras,kg,22000,True,0.0,False,sp2kp
+2026-08-23,Nasional,Bawang Merah,kg,33645,True,0.0,False,sp2kp
+2026-08-23,Nasional,Beras Medium,kg,13920,True,0.02,False,sp2kp
+2026-08-23,Nasional,Cabai Merah Keriting,kg,40319,True,0.26,False,sp2kp
+2026-08-23,Nasional,Cabai Rawit Merah,kg,58460,True,1.09,False,sp2kp
+2026-08-23,Nasional,Telur Ayam Ras,kg,26259,True,0.08,False,sp2kp
+2026-08-24,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-08-24,Kota Malang,Beras Medium,kg,13850,False,0.0,False,sp2kp
+2026-08-24,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-08-24,Kota Malang,Cabai Rawit Merah,kg,47000,False,0.0,False,sp2kp
+2026-08-24,Kota Malang,Telur Ayam Ras,kg,22000,False,0.0,False,sp2kp
+2026-08-24,Nasional,Bawang Merah,kg,33647,False,0.01,False,sp2kp
+2026-08-24,Nasional,Beras Medium,kg,13924,False,0.03,False,sp2kp
+2026-08-24,Nasional,Cabai Merah Keriting,kg,40422,False,0.26,False,sp2kp
+2026-08-24,Nasional,Cabai Rawit Merah,kg,59088,False,1.07,False,sp2kp
+2026-08-24,Nasional,Telur Ayam Ras,kg,26281,False,0.08,False,sp2kp
+2026-08-25,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-08-25,Kota Malang,Beras Medium,kg,13900,True,0.36,False,sp2kp
+2026-08-25,Kota Malang,Cabai Merah Keriting,kg,30000,True,0.0,False,sp2kp
+2026-08-25,Kota Malang,Cabai Rawit Merah,kg,49500,True,5.32,False,sp2kp
+2026-08-25,Kota Malang,Telur Ayam Ras,kg,22500,True,2.27,False,sp2kp
+2026-08-25,Nasional,Bawang Merah,kg,33612,True,-0.1,False,sp2kp
+2026-08-25,Nasional,Beras Medium,kg,13934,True,0.07,False,sp2kp
+2026-08-25,Nasional,Cabai Merah Keriting,kg,40646,True,0.55,False,sp2kp
+2026-08-25,Nasional,Cabai Rawit Merah,kg,59914,True,1.4,False,sp2kp
+2026-08-25,Nasional,Telur Ayam Ras,kg,26362,True,0.31,False,sp2kp
+2026-08-26,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-08-26,Kota Malang,Beras Medium,kg,13950,False,0.36,False,sp2kp
+2026-08-26,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-08-26,Kota Malang,Cabai Rawit Merah,kg,52000,False,5.05,False,sp2kp
+2026-08-26,Kota Malang,Telur Ayam Ras,kg,23000,False,2.22,False,sp2kp
+2026-08-26,Nasional,Bawang Merah,kg,33578,False,-0.1,False,sp2kp
+2026-08-26,Nasional,Beras Medium,kg,13944,False,0.07,False,sp2kp
+2026-08-26,Nasional,Cabai Merah Keriting,kg,40871,False,0.55,False,sp2kp
+2026-08-26,Nasional,Cabai Rawit Merah,kg,60739,False,1.38,False,sp2kp
+2026-08-26,Nasional,Telur Ayam Ras,kg,26444,False,0.31,False,sp2kp
+2026-08-27,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-08-27,Kota Malang,Beras Medium,kg,13950,False,0.0,False,sp2kp
+2026-08-27,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-08-27,Kota Malang,Cabai Rawit Merah,kg,52000,False,0.0,False,sp2kp
+2026-08-27,Kota Malang,Telur Ayam Ras,kg,24500,False,6.52,False,sp2kp
+2026-08-27,Nasional,Bawang Merah,kg,33658,False,0.24,False,sp2kp
+2026-08-27,Nasional,Beras Medium,kg,13945,False,0.01,False,sp2kp
+2026-08-27,Nasional,Cabai Merah Keriting,kg,41058,False,0.46,False,sp2kp
+2026-08-27,Nasional,Cabai Rawit Merah,kg,61433,False,1.14,False,sp2kp
+2026-08-27,Nasional,Telur Ayam Ras,kg,26487,False,0.16,False,sp2kp
+2026-08-28,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-08-28,Kota Malang,Beras Medium,kg,13950,False,0.0,False,sp2kp
+2026-08-28,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-08-28,Kota Malang,Cabai Rawit Merah,kg,52000,False,0.0,False,sp2kp
+2026-08-28,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-08-28,Nasional,Bawang Merah,kg,33518,False,-0.42,False,sp2kp
+2026-08-28,Nasional,Beras Medium,kg,13950,False,0.04,False,sp2kp
+2026-08-28,Nasional,Cabai Merah Keriting,kg,41175,False,0.28,False,sp2kp
+2026-08-28,Nasional,Cabai Rawit Merah,kg,61900,False,0.76,False,sp2kp
+2026-08-28,Nasional,Telur Ayam Ras,kg,26540,False,0.2,False,sp2kp
+2026-08-29,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-08-29,Kota Malang,Beras Medium,kg,14000,True,0.36,False,sp2kp
+2026-08-29,Kota Malang,Cabai Merah Keriting,kg,30000,True,0.0,False,sp2kp
+2026-08-29,Kota Malang,Cabai Rawit Merah,kg,53333,True,2.56,False,sp2kp
+2026-08-29,Kota Malang,Telur Ayam Ras,kg,24333,True,-0.68,False,sp2kp
+2026-08-29,Nasional,Bawang Merah,kg,33519,True,0.0,False,sp2kp
+2026-08-29,Nasional,Beras Medium,kg,13955,True,0.04,False,sp2kp
+2026-08-29,Nasional,Cabai Merah Keriting,kg,41575,True,0.97,False,sp2kp
+2026-08-29,Nasional,Cabai Rawit Merah,kg,62743,True,1.36,False,sp2kp
+2026-08-29,Nasional,Telur Ayam Ras,kg,26584,True,0.17,False,sp2kp
+2026-08-30,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-08-30,Kota Malang,Beras Medium,kg,14050,True,0.36,False,sp2kp
+2026-08-30,Kota Malang,Cabai Merah Keriting,kg,30000,True,0.0,False,sp2kp
+2026-08-30,Kota Malang,Cabai Rawit Merah,kg,54667,True,2.5,False,sp2kp
+2026-08-30,Kota Malang,Telur Ayam Ras,kg,24167,True,-0.68,False,sp2kp
+2026-08-30,Nasional,Bawang Merah,kg,33520,True,0.0,False,sp2kp
+2026-08-30,Nasional,Beras Medium,kg,13959,True,0.03,False,sp2kp
+2026-08-30,Nasional,Cabai Merah Keriting,kg,41974,True,0.96,False,sp2kp
+2026-08-30,Nasional,Cabai Rawit Merah,kg,63587,True,1.35,False,sp2kp
+2026-08-30,Nasional,Telur Ayam Ras,kg,26629,True,0.17,False,sp2kp
+2026-08-31,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-08-31,Kota Malang,Beras Medium,kg,14100,False,0.36,False,sp2kp
+2026-08-31,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-08-31,Kota Malang,Cabai Rawit Merah,kg,56000,False,2.44,False,sp2kp
+2026-08-31,Kota Malang,Telur Ayam Ras,kg,24000,False,-0.69,False,sp2kp
+2026-08-31,Nasional,Bawang Merah,kg,33521,False,0.0,False,sp2kp
+2026-08-31,Nasional,Beras Medium,kg,13964,False,0.04,False,sp2kp
+2026-08-31,Nasional,Cabai Merah Keriting,kg,42374,False,0.95,False,sp2kp
+2026-08-31,Nasional,Cabai Rawit Merah,kg,64430,False,1.33,False,sp2kp
+2026-08-31,Nasional,Telur Ayam Ras,kg,26673,False,0.17,False,sp2kp
+2026-09-01,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-09-01,Kota Malang,Beras Medium,kg,14100,False,0.0,False,sp2kp
+2026-09-01,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-09-01,Kota Malang,Cabai Rawit Merah,kg,56000,False,0.0,False,sp2kp
+2026-09-01,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-09-01,Nasional,Bawang Merah,kg,33534,False,0.04,False,sp2kp
+2026-09-01,Nasional,Beras Medium,kg,13971,False,0.05,False,sp2kp
+2026-09-01,Nasional,Cabai Merah Keriting,kg,42849,False,1.12,False,sp2kp
+2026-09-01,Nasional,Cabai Rawit Merah,kg,65705,False,1.98,False,sp2kp
+2026-09-01,Nasional,Telur Ayam Ras,kg,26703,False,0.11,False,sp2kp
+2026-09-02,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-09-02,Kota Malang,Beras Medium,kg,14100,False,0.0,False,sp2kp
+2026-09-02,Kota Malang,Cabai Merah Keriting,kg,30000,False,0.0,False,sp2kp
+2026-09-02,Kota Malang,Cabai Rawit Merah,kg,56000,False,0.0,False,sp2kp
+2026-09-02,Kota Malang,Telur Ayam Ras,kg,24500,False,2.08,False,sp2kp
+2026-09-02,Nasional,Bawang Merah,kg,33430,False,-0.31,False,sp2kp
+2026-09-02,Nasional,Beras Medium,kg,13975,False,0.03,False,sp2kp
+2026-09-02,Nasional,Cabai Merah Keriting,kg,43709,False,2.01,False,sp2kp
+2026-09-02,Nasional,Cabai Rawit Merah,kg,67106,False,2.13,False,sp2kp
+2026-09-02,Nasional,Telur Ayam Ras,kg,26735,False,0.12,False,sp2kp
+2026-09-03,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-09-03,Kota Malang,Beras Medium,kg,14100,False,0.0,False,sp2kp
+2026-09-03,Kota Malang,Cabai Merah Keriting,kg,35000,False,16.67,False,sp2kp
+2026-09-03,Kota Malang,Cabai Rawit Merah,kg,56000,False,0.0,False,sp2kp
+2026-09-03,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-03,Nasional,Bawang Merah,kg,33487,False,0.17,False,sp2kp
+2026-09-03,Nasional,Beras Medium,kg,13984,False,0.06,False,sp2kp
+2026-09-03,Nasional,Cabai Merah Keriting,kg,44625,False,2.1,False,sp2kp
+2026-09-03,Nasional,Cabai Rawit Merah,kg,68228,False,1.67,False,sp2kp
+2026-09-03,Nasional,Telur Ayam Ras,kg,26731,False,-0.01,False,sp2kp
+2026-09-04,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-09-04,Kota Malang,Beras Medium,kg,14100,False,0.0,False,sp2kp
+2026-09-04,Kota Malang,Cabai Merah Keriting,kg,35000,False,0.0,False,sp2kp
+2026-09-04,Kota Malang,Cabai Rawit Merah,kg,57000,False,1.79,False,sp2kp
+2026-09-04,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-04,Nasional,Bawang Merah,kg,33366,False,-0.36,False,sp2kp
+2026-09-04,Nasional,Beras Medium,kg,13982,False,-0.01,False,sp2kp
+2026-09-04,Nasional,Cabai Merah Keriting,kg,45004,False,0.85,False,sp2kp
+2026-09-04,Nasional,Cabai Rawit Merah,kg,69173,False,1.39,False,sp2kp
+2026-09-04,Nasional,Telur Ayam Ras,kg,26726,False,-0.02,False,sp2kp
+2026-09-05,Kota Malang,Bawang Merah,kg,26000,True,-7.14,False,sp2kp
+2026-09-05,Kota Malang,Beras Medium,kg,14200,True,0.71,False,sp2kp
+2026-09-05,Kota Malang,Cabai Merah Keriting,kg,35000,True,0.0,False,sp2kp
+2026-09-05,Kota Malang,Cabai Rawit Merah,kg,58667,True,2.92,False,sp2kp
+2026-09-05,Kota Malang,Telur Ayam Ras,kg,24500,True,0.0,False,sp2kp
+2026-09-05,Nasional,Bawang Merah,kg,33240,True,-0.38,False,sp2kp
+2026-09-05,Nasional,Beras Medium,kg,13988,True,0.04,False,sp2kp
+2026-09-05,Nasional,Cabai Merah Keriting,kg,45903,True,2.0,False,sp2kp
+2026-09-05,Nasional,Cabai Rawit Merah,kg,70145,True,1.41,False,sp2kp
+2026-09-05,Nasional,Telur Ayam Ras,kg,26742,True,0.06,False,sp2kp
+2026-09-06,Kota Malang,Bawang Merah,kg,24000,True,-7.69,False,sp2kp
+2026-09-06,Kota Malang,Beras Medium,kg,14300,True,0.7,False,sp2kp
+2026-09-06,Kota Malang,Cabai Merah Keriting,kg,35000,True,0.0,False,sp2kp
+2026-09-06,Kota Malang,Cabai Rawit Merah,kg,60333,True,2.84,False,sp2kp
+2026-09-06,Kota Malang,Telur Ayam Ras,kg,24500,True,0.0,False,sp2kp
+2026-09-06,Nasional,Bawang Merah,kg,33114,True,-0.38,False,sp2kp
+2026-09-06,Nasional,Beras Medium,kg,13993,True,0.04,False,sp2kp
+2026-09-06,Nasional,Cabai Merah Keriting,kg,46802,True,1.96,False,sp2kp
+2026-09-06,Nasional,Cabai Rawit Merah,kg,71116,True,1.38,False,sp2kp
+2026-09-06,Nasional,Telur Ayam Ras,kg,26758,True,0.06,False,sp2kp
+2026-09-07,Kota Malang,Bawang Merah,kg,22000,False,-8.33,False,sp2kp
+2026-09-07,Kota Malang,Beras Medium,kg,14400,False,0.7,False,sp2kp
+2026-09-07,Kota Malang,Cabai Merah Keriting,kg,35000,False,0.0,False,sp2kp
+2026-09-07,Kota Malang,Cabai Rawit Merah,kg,62000,False,2.76,False,sp2kp
+2026-09-07,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-07,Nasional,Bawang Merah,kg,32988,False,-0.38,False,sp2kp
+2026-09-07,Nasional,Beras Medium,kg,13999,False,0.04,False,sp2kp
+2026-09-07,Nasional,Cabai Merah Keriting,kg,47701,False,1.92,False,sp2kp
+2026-09-07,Nasional,Cabai Rawit Merah,kg,72088,False,1.37,False,sp2kp
+2026-09-07,Nasional,Telur Ayam Ras,kg,26774,False,0.06,False,sp2kp
+2026-09-08,Kota Malang,Bawang Merah,kg,22000,False,0.0,False,sp2kp
+2026-09-08,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-08,Kota Malang,Cabai Merah Keriting,kg,35000,False,0.0,False,sp2kp
+2026-09-08,Kota Malang,Cabai Rawit Merah,kg,62000,False,0.0,False,sp2kp
+2026-09-08,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-08,Nasional,Bawang Merah,kg,32935,False,-0.16,False,sp2kp
+2026-09-08,Nasional,Beras Medium,kg,14011,False,0.09,False,sp2kp
+2026-09-08,Nasional,Cabai Merah Keriting,kg,48568,False,1.82,False,sp2kp
+2026-09-08,Nasional,Cabai Rawit Merah,kg,73165,False,1.49,False,sp2kp
+2026-09-08,Nasional,Telur Ayam Ras,kg,26789,False,0.06,False,sp2kp
+2026-09-09,Kota Malang,Bawang Merah,kg,22000,False,0.0,False,sp2kp
+2026-09-09,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-09,Kota Malang,Cabai Merah Keriting,kg,43000,False,22.86,False,sp2kp
+2026-09-09,Kota Malang,Cabai Rawit Merah,kg,65000,False,4.84,False,sp2kp
+2026-09-09,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-09,Nasional,Bawang Merah,kg,32934,False,-0.0,False,sp2kp
+2026-09-09,Nasional,Beras Medium,kg,14006,False,-0.04,False,sp2kp
+2026-09-09,Nasional,Cabai Merah Keriting,kg,49593,False,2.11,False,sp2kp
+2026-09-09,Nasional,Cabai Rawit Merah,kg,73495,False,0.45,False,sp2kp
+2026-09-09,Nasional,Telur Ayam Ras,kg,26828,False,0.15,False,sp2kp
+2026-09-10,Kota Malang,Bawang Merah,kg,22000,False,0.0,False,sp2kp
+2026-09-10,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-10,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-10,Kota Malang,Cabai Rawit Merah,kg,65000,False,0.0,False,sp2kp
+2026-09-10,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-10,Nasional,Bawang Merah,kg,32847,False,-0.26,False,sp2kp
+2026-09-10,Nasional,Beras Medium,kg,14008,False,0.01,False,sp2kp
+2026-09-10,Nasional,Cabai Merah Keriting,kg,50345,False,1.52,False,sp2kp
+2026-09-10,Nasional,Cabai Rawit Merah,kg,73445,False,-0.07,False,sp2kp
+2026-09-10,Nasional,Telur Ayam Ras,kg,26853,False,0.09,False,sp2kp
+2026-09-11,Kota Malang,Bawang Merah,kg,22000,False,0.0,False,sp2kp
+2026-09-11,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-11,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-11,Kota Malang,Cabai Rawit Merah,kg,60000,False,-7.69,False,sp2kp
+2026-09-11,Kota Malang,Telur Ayam Ras,kg,25500,False,4.08,False,sp2kp
+2026-09-11,Nasional,Bawang Merah,kg,32783,False,-0.19,False,sp2kp
+2026-09-11,Nasional,Beras Medium,kg,14018,False,0.07,False,sp2kp
+2026-09-11,Nasional,Cabai Merah Keriting,kg,50463,False,0.23,False,sp2kp
+2026-09-11,Nasional,Cabai Rawit Merah,kg,73349,False,-0.13,False,sp2kp
+2026-09-11,Nasional,Telur Ayam Ras,kg,26906,False,0.2,False,sp2kp
+2026-09-12,Kota Malang,Bawang Merah,kg,22000,True,0.0,False,sp2kp
+2026-09-12,Kota Malang,Beras Medium,kg,14400,True,0.0,False,sp2kp
+2026-09-12,Kota Malang,Cabai Merah Keriting,kg,42000,True,-2.33,False,sp2kp
+2026-09-12,Kota Malang,Cabai Rawit Merah,kg,59000,True,-1.67,False,sp2kp
+2026-09-12,Kota Malang,Telur Ayam Ras,kg,25500,True,0.0,False,sp2kp
+2026-09-12,Nasional,Bawang Merah,kg,32733,True,-0.15,False,sp2kp
+2026-09-12,Nasional,Beras Medium,kg,14021,True,0.02,False,sp2kp
+2026-09-12,Nasional,Cabai Merah Keriting,kg,50954,True,0.97,False,sp2kp
+2026-09-12,Nasional,Cabai Rawit Merah,kg,73283,True,-0.09,False,sp2kp
+2026-09-12,Nasional,Telur Ayam Ras,kg,26964,True,0.22,False,sp2kp
+2026-09-13,Kota Malang,Bawang Merah,kg,22000,True,0.0,False,sp2kp
+2026-09-13,Kota Malang,Beras Medium,kg,14400,True,0.0,False,sp2kp
+2026-09-13,Kota Malang,Cabai Merah Keriting,kg,41000,True,-2.38,False,sp2kp
+2026-09-13,Kota Malang,Cabai Rawit Merah,kg,58000,True,-1.69,False,sp2kp
+2026-09-13,Kota Malang,Telur Ayam Ras,kg,25500,True,0.0,False,sp2kp
+2026-09-13,Nasional,Bawang Merah,kg,32682,True,-0.16,False,sp2kp
+2026-09-13,Nasional,Beras Medium,kg,14023,True,0.01,False,sp2kp
+2026-09-13,Nasional,Cabai Merah Keriting,kg,51444,True,0.96,False,sp2kp
+2026-09-13,Nasional,Cabai Rawit Merah,kg,73216,True,-0.09,False,sp2kp
+2026-09-13,Nasional,Telur Ayam Ras,kg,27021,True,0.21,False,sp2kp
+2026-09-14,Kota Malang,Bawang Merah,kg,22000,False,0.0,False,sp2kp
+2026-09-14,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-14,Kota Malang,Cabai Merah Keriting,kg,40000,False,-2.44,False,sp2kp
+2026-09-14,Kota Malang,Cabai Rawit Merah,kg,57000,False,-1.72,False,sp2kp
+2026-09-14,Kota Malang,Telur Ayam Ras,kg,25500,False,0.0,False,sp2kp
+2026-09-14,Nasional,Bawang Merah,kg,32632,False,-0.15,False,sp2kp
+2026-09-14,Nasional,Beras Medium,kg,14026,False,0.02,False,sp2kp
+2026-09-14,Nasional,Cabai Merah Keriting,kg,51935,False,0.95,False,sp2kp
+2026-09-14,Nasional,Cabai Rawit Merah,kg,73150,False,-0.09,False,sp2kp
+2026-09-14,Nasional,Telur Ayam Ras,kg,27079,False,0.21,False,sp2kp
+2026-09-15,Kota Malang,Bawang Merah,kg,22000,False,0.0,False,sp2kp
+2026-09-15,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-15,Kota Malang,Cabai Merah Keriting,kg,40000,False,0.0,False,sp2kp
+2026-09-15,Kota Malang,Cabai Rawit Merah,kg,60000,False,5.26,False,sp2kp
+2026-09-15,Kota Malang,Telur Ayam Ras,kg,26000,False,1.96,False,sp2kp
+2026-09-15,Nasional,Bawang Merah,kg,32529,False,-0.32,False,sp2kp
+2026-09-15,Nasional,Beras Medium,kg,14017,False,-0.06,False,sp2kp
+2026-09-15,Nasional,Cabai Merah Keriting,kg,52262,False,0.63,False,sp2kp
+2026-09-15,Nasional,Cabai Rawit Merah,kg,72860,False,-0.4,False,sp2kp
+2026-09-15,Nasional,Telur Ayam Ras,kg,27146,False,0.25,False,sp2kp
+2026-09-16,Kota Malang,Bawang Merah,kg,25000,False,13.64,False,sp2kp
+2026-09-16,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-16,Kota Malang,Cabai Merah Keriting,kg,40000,False,0.0,False,sp2kp
+2026-09-16,Kota Malang,Cabai Rawit Merah,kg,65000,False,8.33,False,sp2kp
+2026-09-16,Kota Malang,Telur Ayam Ras,kg,25500,False,-1.92,False,sp2kp
+2026-09-16,Nasional,Bawang Merah,kg,32421,False,-0.33,False,sp2kp
+2026-09-16,Nasional,Beras Medium,kg,14049,False,0.23,False,sp2kp
+2026-09-16,Nasional,Cabai Merah Keriting,kg,53764,False,2.87,False,sp2kp
+2026-09-16,Nasional,Cabai Rawit Merah,kg,73243,False,0.53,False,sp2kp
+2026-09-16,Nasional,Telur Ayam Ras,kg,27162,False,0.06,False,sp2kp
+2026-09-17,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-17,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-17,Kota Malang,Cabai Merah Keriting,kg,40000,False,0.0,False,sp2kp
+2026-09-17,Kota Malang,Cabai Rawit Merah,kg,65000,False,0.0,False,sp2kp
+2026-09-17,Kota Malang,Telur Ayam Ras,kg,25500,False,0.0,False,sp2kp
+2026-09-17,Nasional,Bawang Merah,kg,32427,False,0.02,False,sp2kp
+2026-09-17,Nasional,Beras Medium,kg,14018,False,-0.22,False,sp2kp
+2026-09-17,Nasional,Cabai Merah Keriting,kg,54721,False,1.78,False,sp2kp
+2026-09-17,Nasional,Cabai Rawit Merah,kg,73480,False,0.32,False,sp2kp
+2026-09-17,Nasional,Telur Ayam Ras,kg,27179,False,0.06,False,sp2kp
+2026-09-18,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-18,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-18,Kota Malang,Cabai Merah Keriting,kg,40000,False,0.0,False,sp2kp
+2026-09-18,Kota Malang,Cabai Rawit Merah,kg,61000,False,-6.15,False,sp2kp
+2026-09-18,Kota Malang,Telur Ayam Ras,kg,25500,False,0.0,False,sp2kp
+2026-09-18,Nasional,Bawang Merah,kg,32463,False,0.11,False,sp2kp
+2026-09-18,Nasional,Beras Medium,kg,14019,False,0.01,False,sp2kp
+2026-09-18,Nasional,Cabai Merah Keriting,kg,54985,False,0.48,False,sp2kp
+2026-09-18,Nasional,Cabai Rawit Merah,kg,73392,False,-0.12,False,sp2kp
+2026-09-18,Nasional,Telur Ayam Ras,kg,27168,False,-0.04,False,sp2kp
+2026-09-19,Kota Malang,Bawang Merah,kg,25000,True,0.0,False,sp2kp
+2026-09-19,Kota Malang,Beras Medium,kg,14400,True,0.0,False,sp2kp
+2026-09-19,Kota Malang,Cabai Merah Keriting,kg,41000,True,2.5,False,sp2kp
+2026-09-19,Kota Malang,Cabai Rawit Merah,kg,60667,True,-0.55,False,sp2kp
+2026-09-19,Kota Malang,Telur Ayam Ras,kg,25500,True,0.0,False,sp2kp
+2026-09-19,Nasional,Bawang Merah,kg,32499,True,0.11,False,sp2kp
+2026-09-19,Nasional,Beras Medium,kg,14020,True,0.01,False,sp2kp
+2026-09-19,Nasional,Cabai Merah Keriting,kg,55304,True,0.58,False,sp2kp
+2026-09-19,Nasional,Cabai Rawit Merah,kg,73602,True,0.29,False,sp2kp
+2026-09-19,Nasional,Telur Ayam Ras,kg,27171,True,0.01,False,sp2kp
+2026-09-20,Kota Malang,Bawang Merah,kg,25000,True,0.0,False,sp2kp
+2026-09-20,Kota Malang,Beras Medium,kg,14400,True,0.0,False,sp2kp
+2026-09-20,Kota Malang,Cabai Merah Keriting,kg,42000,True,2.44,False,sp2kp
+2026-09-20,Kota Malang,Cabai Rawit Merah,kg,60333,True,-0.55,False,sp2kp
+2026-09-20,Kota Malang,Telur Ayam Ras,kg,25500,True,0.0,False,sp2kp
+2026-09-20,Nasional,Bawang Merah,kg,32535,True,0.11,False,sp2kp
+2026-09-20,Nasional,Beras Medium,kg,14021,True,0.01,False,sp2kp
+2026-09-20,Nasional,Cabai Merah Keriting,kg,55624,True,0.58,False,sp2kp
+2026-09-20,Nasional,Cabai Rawit Merah,kg,73812,True,0.29,False,sp2kp
+2026-09-20,Nasional,Telur Ayam Ras,kg,27174,True,0.01,False,sp2kp
+2026-09-21,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-21,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-21,Kota Malang,Cabai Merah Keriting,kg,43000,False,2.38,False,sp2kp
+2026-09-21,Kota Malang,Cabai Rawit Merah,kg,60000,False,-0.55,False,sp2kp
+2026-09-21,Kota Malang,Telur Ayam Ras,kg,25500,False,0.0,False,sp2kp
+2026-09-21,Nasional,Bawang Merah,kg,32571,False,0.11,False,sp2kp
+2026-09-21,Nasional,Beras Medium,kg,14022,False,0.01,False,sp2kp
+2026-09-21,Nasional,Cabai Merah Keriting,kg,55943,False,0.57,False,sp2kp
+2026-09-21,Nasional,Cabai Rawit Merah,kg,74022,False,0.28,False,sp2kp
+2026-09-21,Nasional,Telur Ayam Ras,kg,27177,False,0.01,False,sp2kp
+2026-09-22,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-22,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-22,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-22,Kota Malang,Cabai Rawit Merah,kg,60000,False,0.0,False,sp2kp
+2026-09-22,Kota Malang,Telur Ayam Ras,kg,25500,False,0.0,False,sp2kp
+2026-09-22,Nasional,Bawang Merah,kg,32664,False,0.29,False,sp2kp
+2026-09-22,Nasional,Beras Medium,kg,14027,False,0.04,False,sp2kp
+2026-09-22,Nasional,Cabai Merah Keriting,kg,55996,False,0.09,False,sp2kp
+2026-09-22,Nasional,Cabai Rawit Merah,kg,74435,False,0.56,False,sp2kp
+2026-09-22,Nasional,Telur Ayam Ras,kg,27149,False,-0.1,False,sp2kp
+2026-09-23,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-23,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-23,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-23,Kota Malang,Cabai Rawit Merah,kg,60000,False,0.0,False,sp2kp
+2026-09-23,Kota Malang,Telur Ayam Ras,kg,24500,False,-3.92,False,sp2kp
+2026-09-23,Nasional,Bawang Merah,kg,32794,False,0.4,False,sp2kp
+2026-09-23,Nasional,Beras Medium,kg,14025,False,-0.01,False,sp2kp
+2026-09-23,Nasional,Cabai Merah Keriting,kg,56196,False,0.36,False,sp2kp
+2026-09-23,Nasional,Cabai Rawit Merah,kg,74901,False,0.63,False,sp2kp
+2026-09-23,Nasional,Telur Ayam Ras,kg,27101,False,-0.18,False,sp2kp
+2026-09-24,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-24,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-24,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-24,Kota Malang,Cabai Rawit Merah,kg,60000,False,0.0,False,sp2kp
+2026-09-24,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-24,Nasional,Bawang Merah,kg,32634,False,-0.49,False,sp2kp
+2026-09-24,Nasional,Beras Medium,kg,14028,False,0.02,False,sp2kp
+2026-09-24,Nasional,Cabai Merah Keriting,kg,56047,False,-0.27,False,sp2kp
+2026-09-24,Nasional,Cabai Rawit Merah,kg,75156,False,0.34,False,sp2kp
+2026-09-24,Nasional,Telur Ayam Ras,kg,27113,False,0.04,False,sp2kp
+2026-09-25,Kota Malang,Bawang Merah,kg,25000,False,0.0,False,sp2kp
+2026-09-25,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-25,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-25,Kota Malang,Cabai Rawit Merah,kg,60000,False,0.0,False,sp2kp
+2026-09-25,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-25,Nasional,Bawang Merah,kg,32611,False,-0.07,False,sp2kp
+2026-09-25,Nasional,Beras Medium,kg,14026,False,-0.01,False,sp2kp
+2026-09-25,Nasional,Cabai Merah Keriting,kg,56325,False,0.5,False,sp2kp
+2026-09-25,Nasional,Cabai Rawit Merah,kg,75473,False,0.42,False,sp2kp
+2026-09-25,Nasional,Telur Ayam Ras,kg,27110,False,-0.01,False,sp2kp
+2026-09-26,Kota Malang,Bawang Merah,kg,25667,True,2.67,False,sp2kp
+2026-09-26,Kota Malang,Beras Medium,kg,14400,True,0.0,False,sp2kp
+2026-09-26,Kota Malang,Cabai Merah Keriting,kg,43000,True,0.0,False,sp2kp
+2026-09-26,Kota Malang,Cabai Rawit Merah,kg,64000,True,6.67,False,sp2kp
+2026-09-26,Kota Malang,Telur Ayam Ras,kg,24500,True,0.0,False,sp2kp
+2026-09-26,Nasional,Bawang Merah,kg,32646,True,0.11,False,sp2kp
+2026-09-26,Nasional,Beras Medium,kg,14025,True,-0.01,False,sp2kp
+2026-09-26,Nasional,Cabai Merah Keriting,kg,56813,True,0.87,False,sp2kp
+2026-09-26,Nasional,Cabai Rawit Merah,kg,76357,True,1.17,False,sp2kp
+2026-09-26,Nasional,Telur Ayam Ras,kg,27079,True,-0.11,False,sp2kp
+2026-09-27,Kota Malang,Bawang Merah,kg,26333,True,2.59,False,sp2kp
+2026-09-27,Kota Malang,Beras Medium,kg,14400,True,0.0,False,sp2kp
+2026-09-27,Kota Malang,Cabai Merah Keriting,kg,43000,True,0.0,False,sp2kp
+2026-09-27,Kota Malang,Cabai Rawit Merah,kg,68000,True,6.25,False,sp2kp
+2026-09-27,Kota Malang,Telur Ayam Ras,kg,24500,True,0.0,False,sp2kp
+2026-09-27,Nasional,Bawang Merah,kg,32680,True,0.1,False,sp2kp
+2026-09-27,Nasional,Beras Medium,kg,14024,True,-0.01,False,sp2kp
+2026-09-27,Nasional,Cabai Merah Keriting,kg,57300,True,0.86,False,sp2kp
+2026-09-27,Nasional,Cabai Rawit Merah,kg,77240,True,1.16,False,sp2kp
+2026-09-27,Nasional,Telur Ayam Ras,kg,27047,True,-0.12,False,sp2kp
+2026-09-28,Kota Malang,Bawang Merah,kg,27000,False,2.53,False,sp2kp
+2026-09-28,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-28,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-28,Kota Malang,Cabai Rawit Merah,kg,72000,False,5.88,False,sp2kp
+2026-09-28,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-28,Nasional,Bawang Merah,kg,32715,False,0.11,False,sp2kp
+2026-09-28,Nasional,Beras Medium,kg,14023,False,-0.01,False,sp2kp
+2026-09-28,Nasional,Cabai Merah Keriting,kg,57788,False,0.85,False,sp2kp
+2026-09-28,Nasional,Cabai Rawit Merah,kg,78124,False,1.14,False,sp2kp
+2026-09-28,Nasional,Telur Ayam Ras,kg,27016,False,-0.11,False,sp2kp
+2026-09-29,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-09-29,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-29,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-29,Kota Malang,Cabai Rawit Merah,kg,72000,False,0.0,False,sp2kp
+2026-09-29,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-09-29,Nasional,Bawang Merah,kg,32842,False,0.39,False,sp2kp
+2026-09-29,Nasional,Beras Medium,kg,14025,False,0.01,False,sp2kp
+2026-09-29,Nasional,Cabai Merah Keriting,kg,58334,False,0.94,False,sp2kp
+2026-09-29,Nasional,Cabai Rawit Merah,kg,78986,False,1.1,False,sp2kp
+2026-09-29,Nasional,Telur Ayam Ras,kg,26983,False,-0.12,False,sp2kp
+2026-09-30,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-09-30,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-09-30,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-09-30,Kota Malang,Cabai Rawit Merah,kg,70000,False,-2.78,False,sp2kp
+2026-09-30,Kota Malang,Telur Ayam Ras,kg,23500,False,-4.08,False,sp2kp
+2026-09-30,Nasional,Bawang Merah,kg,32852,False,0.03,False,sp2kp
+2026-09-30,Nasional,Beras Medium,kg,14016,False,-0.06,False,sp2kp
+2026-09-30,Nasional,Cabai Merah Keriting,kg,59112,False,1.33,False,sp2kp
+2026-09-30,Nasional,Cabai Rawit Merah,kg,79482,False,0.63,False,sp2kp
+2026-09-30,Nasional,Telur Ayam Ras,kg,26936,False,-0.17,False,sp2kp
+2026-10-01,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-01,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-10-01,Kota Malang,Cabai Merah Keriting,kg,43000,False,0.0,False,sp2kp
+2026-10-01,Kota Malang,Cabai Rawit Merah,kg,75000,False,7.14,False,sp2kp
+2026-10-01,Kota Malang,Telur Ayam Ras,kg,23500,False,0.0,False,sp2kp
+2026-10-01,Nasional,Bawang Merah,kg,32813,False,-0.12,False,sp2kp
+2026-10-01,Nasional,Beras Medium,kg,14019,False,0.02,False,sp2kp
+2026-10-01,Nasional,Cabai Merah Keriting,kg,60983,False,3.17,False,sp2kp
+2026-10-01,Nasional,Cabai Rawit Merah,kg,80420,False,1.18,False,sp2kp
+2026-10-01,Nasional,Telur Ayam Ras,kg,26915,False,-0.08,False,sp2kp
+2026-10-02,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-02,Kota Malang,Beras Medium,kg,14400,False,0.0,False,sp2kp
+2026-10-02,Kota Malang,Cabai Merah Keriting,kg,50000,False,16.28,False,sp2kp
+2026-10-02,Kota Malang,Cabai Rawit Merah,kg,70000,False,-6.67,False,sp2kp
+2026-10-02,Kota Malang,Telur Ayam Ras,kg,23500,False,0.0,False,sp2kp
+2026-10-02,Nasional,Bawang Merah,kg,32821,False,0.02,False,sp2kp
+2026-10-02,Nasional,Beras Medium,kg,14026,False,0.05,False,sp2kp
+2026-10-02,Nasional,Cabai Merah Keriting,kg,61799,False,1.34,False,sp2kp
+2026-10-02,Nasional,Cabai Rawit Merah,kg,80729,False,0.38,False,sp2kp
+2026-10-02,Nasional,Telur Ayam Ras,kg,26914,False,-0.0,False,sp2kp
+2026-10-03,Kota Malang,Bawang Merah,kg,27000,True,0.0,False,sp2kp
+2026-10-03,Kota Malang,Beras Medium,kg,14450,True,0.35,False,sp2kp
+2026-10-03,Kota Malang,Cabai Merah Keriting,kg,51000,True,2.0,False,sp2kp
+2026-10-03,Kota Malang,Cabai Rawit Merah,kg,68333,True,-2.38,False,sp2kp
+2026-10-03,Kota Malang,Telur Ayam Ras,kg,23667,True,0.71,False,sp2kp
+2026-10-03,Nasional,Bawang Merah,kg,32813,True,-0.02,False,sp2kp
+2026-10-03,Nasional,Beras Medium,kg,14028,True,0.01,False,sp2kp
+2026-10-03,Nasional,Cabai Merah Keriting,kg,63409,True,2.61,False,sp2kp
+2026-10-03,Nasional,Cabai Rawit Merah,kg,80832,True,0.13,False,sp2kp
+2026-10-03,Nasional,Telur Ayam Ras,kg,26882,True,-0.12,False,sp2kp
+2026-10-04,Kota Malang,Bawang Merah,kg,27000,True,0.0,False,sp2kp
+2026-10-04,Kota Malang,Beras Medium,kg,14500,True,0.35,False,sp2kp
+2026-10-04,Kota Malang,Cabai Merah Keriting,kg,52000,True,1.96,False,sp2kp
+2026-10-04,Kota Malang,Cabai Rawit Merah,kg,66667,True,-2.44,False,sp2kp
+2026-10-04,Kota Malang,Telur Ayam Ras,kg,23833,True,0.7,False,sp2kp
+2026-10-04,Nasional,Bawang Merah,kg,32806,True,-0.02,False,sp2kp
+2026-10-04,Nasional,Beras Medium,kg,14031,True,0.02,False,sp2kp
+2026-10-04,Nasional,Cabai Merah Keriting,kg,65019,True,2.54,False,sp2kp
+2026-10-04,Nasional,Cabai Rawit Merah,kg,80935,True,0.13,False,sp2kp
+2026-10-04,Nasional,Telur Ayam Ras,kg,26850,True,-0.12,False,sp2kp
+2026-10-05,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-05,Kota Malang,Beras Medium,kg,14550,False,0.34,False,sp2kp
+2026-10-05,Kota Malang,Cabai Merah Keriting,kg,53000,False,1.92,False,sp2kp
+2026-10-05,Kota Malang,Cabai Rawit Merah,kg,65000,False,-2.5,False,sp2kp
+2026-10-05,Kota Malang,Telur Ayam Ras,kg,24000,False,0.7,False,sp2kp
+2026-10-05,Nasional,Bawang Merah,kg,32798,False,-0.02,False,sp2kp
+2026-10-05,Nasional,Beras Medium,kg,14033,False,0.01,False,sp2kp
+2026-10-05,Nasional,Cabai Merah Keriting,kg,66629,False,2.48,False,sp2kp
+2026-10-05,Nasional,Cabai Rawit Merah,kg,81038,False,0.13,False,sp2kp
+2026-10-05,Nasional,Telur Ayam Ras,kg,26818,False,-0.12,False,sp2kp
+2026-10-06,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-06,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-06,Kota Malang,Cabai Merah Keriting,kg,53000,False,0.0,False,sp2kp
+2026-10-06,Kota Malang,Cabai Rawit Merah,kg,65000,False,0.0,False,sp2kp
+2026-10-06,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-10-06,Nasional,Bawang Merah,kg,32863,False,0.2,False,sp2kp
+2026-10-06,Nasional,Beras Medium,kg,14027,False,-0.04,False,sp2kp
+2026-10-06,Nasional,Cabai Merah Keriting,kg,67736,False,1.66,False,sp2kp
+2026-10-06,Nasional,Cabai Rawit Merah,kg,81324,False,0.35,False,sp2kp
+2026-10-06,Nasional,Telur Ayam Ras,kg,26795,False,-0.09,False,sp2kp
+2026-10-07,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-07,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-07,Kota Malang,Cabai Merah Keriting,kg,63000,False,18.87,False,sp2kp
+2026-10-07,Kota Malang,Cabai Rawit Merah,kg,63000,False,-3.08,False,sp2kp
+2026-10-07,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-10-07,Nasional,Bawang Merah,kg,32753,False,-0.33,False,sp2kp
+2026-10-07,Nasional,Beras Medium,kg,14037,False,0.07,False,sp2kp
+2026-10-07,Nasional,Cabai Merah Keriting,kg,68814,False,1.59,False,sp2kp
+2026-10-07,Nasional,Cabai Rawit Merah,kg,81225,False,-0.12,False,sp2kp
+2026-10-07,Nasional,Telur Ayam Ras,kg,26739,False,-0.21,False,sp2kp
+2026-10-08,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-08,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-08,Kota Malang,Cabai Merah Keriting,kg,63000,False,0.0,False,sp2kp
+2026-10-08,Kota Malang,Cabai Rawit Merah,kg,63000,False,0.0,False,sp2kp
+2026-10-08,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-10-08,Nasional,Bawang Merah,kg,32795,False,0.13,False,sp2kp
+2026-10-08,Nasional,Beras Medium,kg,14020,False,-0.12,False,sp2kp
+2026-10-08,Nasional,Cabai Merah Keriting,kg,69883,False,1.55,False,sp2kp
+2026-10-08,Nasional,Cabai Rawit Merah,kg,81252,False,0.03,False,sp2kp
+2026-10-08,Nasional,Telur Ayam Ras,kg,26696,False,-0.16,False,sp2kp
+2026-10-09,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-09,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-09,Kota Malang,Cabai Merah Keriting,kg,63000,False,0.0,False,sp2kp
+2026-10-09,Kota Malang,Cabai Rawit Merah,kg,63000,False,0.0,False,sp2kp
+2026-10-09,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-10-09,Nasional,Bawang Merah,kg,32779,False,-0.05,False,sp2kp
+2026-10-09,Nasional,Beras Medium,kg,14012,False,-0.06,False,sp2kp
+2026-10-09,Nasional,Cabai Merah Keriting,kg,70487,False,0.86,False,sp2kp
+2026-10-09,Nasional,Cabai Rawit Merah,kg,81268,False,0.02,False,sp2kp
+2026-10-09,Nasional,Telur Ayam Ras,kg,26663,False,-0.12,False,sp2kp
+2026-10-10,Kota Malang,Bawang Merah,kg,27000,True,0.0,False,sp2kp
+2026-10-10,Kota Malang,Beras Medium,kg,14550,True,0.0,False,sp2kp
+2026-10-10,Kota Malang,Cabai Merah Keriting,kg,63000,True,0.0,False,sp2kp
+2026-10-10,Kota Malang,Cabai Rawit Merah,kg,63000,True,0.0,False,sp2kp
+2026-10-10,Kota Malang,Telur Ayam Ras,kg,24000,True,0.0,False,sp2kp
+2026-10-10,Nasional,Bawang Merah,kg,32792,True,0.04,False,sp2kp
+2026-10-10,Nasional,Beras Medium,kg,14011,True,-0.01,False,sp2kp
+2026-10-10,Nasional,Cabai Merah Keriting,kg,70733,True,0.35,False,sp2kp
+2026-10-10,Nasional,Cabai Rawit Merah,kg,81079,True,-0.23,False,sp2kp
+2026-10-10,Nasional,Telur Ayam Ras,kg,26683,True,0.08,False,sp2kp
+2026-10-11,Kota Malang,Bawang Merah,kg,27000,True,0.0,False,sp2kp
+2026-10-11,Kota Malang,Beras Medium,kg,14550,True,0.0,False,sp2kp
+2026-10-11,Kota Malang,Cabai Merah Keriting,kg,63000,True,0.0,False,sp2kp
+2026-10-11,Kota Malang,Cabai Rawit Merah,kg,63000,True,0.0,False,sp2kp
+2026-10-11,Kota Malang,Telur Ayam Ras,kg,24000,True,0.0,False,sp2kp
+2026-10-11,Nasional,Bawang Merah,kg,32804,True,0.04,False,sp2kp
+2026-10-11,Nasional,Beras Medium,kg,14011,True,0.0,False,sp2kp
+2026-10-11,Nasional,Cabai Merah Keriting,kg,70978,True,0.35,False,sp2kp
+2026-10-11,Nasional,Cabai Rawit Merah,kg,80891,True,-0.23,False,sp2kp
+2026-10-11,Nasional,Telur Ayam Ras,kg,26704,True,0.08,False,sp2kp
+2026-10-12,Kota Malang,Bawang Merah,kg,27000,False,0.0,False,sp2kp
+2026-10-12,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-12,Kota Malang,Cabai Merah Keriting,kg,63000,False,0.0,False,sp2kp
+2026-10-12,Kota Malang,Cabai Rawit Merah,kg,63000,False,0.0,False,sp2kp
+2026-10-12,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-10-12,Nasional,Bawang Merah,kg,32817,False,0.04,False,sp2kp
+2026-10-12,Nasional,Beras Medium,kg,14010,False,-0.01,False,sp2kp
+2026-10-12,Nasional,Cabai Merah Keriting,kg,71224,False,0.35,False,sp2kp
+2026-10-12,Nasional,Cabai Rawit Merah,kg,80702,False,-0.23,False,sp2kp
+2026-10-12,Nasional,Telur Ayam Ras,kg,26724,False,0.07,False,sp2kp
+2026-10-13,Kota Malang,Bawang Merah,kg,28000,False,3.7,False,sp2kp
+2026-10-13,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-13,Kota Malang,Cabai Merah Keriting,kg,60000,False,-4.76,False,sp2kp
+2026-10-13,Kota Malang,Cabai Rawit Merah,kg,63000,False,0.0,False,sp2kp
+2026-10-13,Kota Malang,Telur Ayam Ras,kg,24000,False,0.0,False,sp2kp
+2026-10-13,Nasional,Bawang Merah,kg,32735,False,-0.25,False,sp2kp
+2026-10-13,Nasional,Beras Medium,kg,14009,False,-0.01,False,sp2kp
+2026-10-13,Nasional,Cabai Merah Keriting,kg,70944,False,-0.39,False,sp2kp
+2026-10-13,Nasional,Cabai Rawit Merah,kg,80233,False,-0.58,False,sp2kp
+2026-10-13,Nasional,Telur Ayam Ras,kg,26711,False,-0.05,False,sp2kp
+2026-10-14,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-10-14,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-14,Kota Malang,Cabai Merah Keriting,kg,58000,False,-3.33,False,sp2kp
+2026-10-14,Kota Malang,Cabai Rawit Merah,kg,56000,False,-11.11,False,sp2kp
+2026-10-14,Kota Malang,Telur Ayam Ras,kg,25000,False,4.17,False,sp2kp
+2026-10-14,Nasional,Bawang Merah,kg,32740,False,0.02,False,sp2kp
+2026-10-14,Nasional,Beras Medium,kg,14016,False,0.05,False,sp2kp
+2026-10-14,Nasional,Cabai Merah Keriting,kg,70791,False,-0.22,False,sp2kp
+2026-10-14,Nasional,Cabai Rawit Merah,kg,79585,False,-0.81,False,sp2kp
+2026-10-14,Nasional,Telur Ayam Ras,kg,26749,False,0.14,False,sp2kp
+2026-10-15,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-10-15,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-15,Kota Malang,Cabai Merah Keriting,kg,58000,False,0.0,False,sp2kp
+2026-10-15,Kota Malang,Cabai Rawit Merah,kg,56000,False,0.0,False,sp2kp
+2026-10-15,Kota Malang,Telur Ayam Ras,kg,25000,False,0.0,False,sp2kp
+2026-10-15,Nasional,Bawang Merah,kg,32761,False,0.06,False,sp2kp
+2026-10-15,Nasional,Beras Medium,kg,14013,False,-0.02,False,sp2kp
+2026-10-15,Nasional,Cabai Merah Keriting,kg,70310,False,-0.68,False,sp2kp
+2026-10-15,Nasional,Cabai Rawit Merah,kg,78777,False,-1.02,False,sp2kp
+2026-10-15,Nasional,Telur Ayam Ras,kg,26755,False,0.02,False,sp2kp
+2026-10-16,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-10-16,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-16,Kota Malang,Cabai Merah Keriting,kg,55000,False,-5.17,False,sp2kp
+2026-10-16,Kota Malang,Cabai Rawit Merah,kg,47000,False,-16.07,False,sp2kp
+2026-10-16,Kota Malang,Telur Ayam Ras,kg,24500,False,-2.0,False,sp2kp
+2026-10-16,Nasional,Bawang Merah,kg,32739,False,-0.07,False,sp2kp
+2026-10-16,Nasional,Beras Medium,kg,14016,False,0.02,False,sp2kp
+2026-10-16,Nasional,Cabai Merah Keriting,kg,69815,False,-0.7,False,sp2kp
+2026-10-16,Nasional,Cabai Rawit Merah,kg,77542,False,-1.57,False,sp2kp
+2026-10-16,Nasional,Telur Ayam Ras,kg,26749,False,-0.02,False,sp2kp
+2026-10-17,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-10-17,Kota Malang,Beras Medium,kg,14550,True,0.0,False,sp2kp
+2026-10-17,Kota Malang,Cabai Merah Keriting,kg,55333,True,0.61,False,sp2kp
+2026-10-17,Kota Malang,Cabai Rawit Merah,kg,51000,True,8.51,False,sp2kp
+2026-10-17,Kota Malang,Telur Ayam Ras,kg,24500,True,0.0,False,sp2kp
+2026-10-17,Nasional,Bawang Merah,kg,32752,True,0.04,False,sp2kp
+2026-10-17,Nasional,Beras Medium,kg,14014,True,-0.01,False,sp2kp
+2026-10-17,Nasional,Cabai Merah Keriting,kg,69659,True,-0.22,False,sp2kp
+2026-10-17,Nasional,Cabai Rawit Merah,kg,77398,True,-0.19,False,sp2kp
+2026-10-17,Nasional,Telur Ayam Ras,kg,26738,True,-0.04,False,sp2kp
+2026-10-18,Kota Malang,Bawang Merah,kg,28000,True,0.0,False,sp2kp
+2026-10-18,Kota Malang,Beras Medium,kg,14550,True,0.0,False,sp2kp
+2026-10-18,Kota Malang,Cabai Merah Keriting,kg,55667,True,0.6,False,sp2kp
+2026-10-18,Kota Malang,Cabai Rawit Merah,kg,55000,True,7.84,False,sp2kp
+2026-10-18,Kota Malang,Telur Ayam Ras,kg,24500,True,0.0,False,sp2kp
+2026-10-18,Nasional,Bawang Merah,kg,32765,True,0.04,False,sp2kp
+2026-10-18,Nasional,Beras Medium,kg,14011,True,-0.02,False,sp2kp
+2026-10-18,Nasional,Cabai Merah Keriting,kg,69504,True,-0.22,False,sp2kp
+2026-10-18,Nasional,Cabai Rawit Merah,kg,77254,True,-0.19,False,sp2kp
+2026-10-18,Nasional,Telur Ayam Ras,kg,26726,True,-0.04,False,sp2kp
+2026-10-19,Kota Malang,Bawang Merah,kg,28000,False,0.0,False,sp2kp
+2026-10-19,Kota Malang,Beras Medium,kg,14550,False,0.0,False,sp2kp
+2026-10-19,Kota Malang,Cabai Merah Keriting,kg,56000,False,0.6,False,sp2kp
+2026-10-19,Kota Malang,Cabai Rawit Merah,kg,59000,False,7.27,False,sp2kp
+2026-10-19,Kota Malang,Telur Ayam Ras,kg,24500,False,0.0,False,sp2kp
+2026-10-19,Nasional,Bawang Merah,kg,32778,False,0.04,False,sp2kp
+2026-10-19,Nasional,Beras Medium,kg,14009,False,-0.01,False,sp2kp
+2026-10-19,Nasional,Cabai Merah Keriting,kg,69348,False,-0.22,False,sp2kp
+2026-10-19,Nasional,Cabai Rawit Merah,kg,77110,False,-0.19,False,sp2kp
+2026-10-19,Nasional,Telur Ayam Ras,kg,26715,False,-0.04,False,sp2kp
