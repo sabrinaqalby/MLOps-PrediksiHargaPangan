@@ -1,0 +1,93 @@
+name: prediksi-harga-pangan
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: pangan-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: mlflow
+      POSTGRES_PASSWORD: mlflow
+      POSTGRES_DB: mlflow
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    networks:
+      - ml-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mlflow -d mlflow"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  mlflow-server:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.mlflow
+    image: pangan-mlflow:1.0
+    container_name: pangan-mlflow
+    restart: unless-stopped
+
+    command:
+      - mlflow
+      - server
+      - --backend-store-uri
+      - postgresql+psycopg2://mlflow:mlflow@postgres:5432/mlflow
+      - --artifacts-destination
+      - /mlartifacts
+      - --serve-artifacts
+      - --host
+      - 0.0.0.0
+      - --port
+      - "5000"
+      - --allowed-hosts
+      - ${MLFLOW_ALLOWED_HOSTS:-*}
+    volumes:
+      - mlflow-artifacts:/mlartifacts
+    ports:
+      - "5000:5000"
+    networks:
+      - ml-net
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:5000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 40s
+
+  api-service:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    image: pangan-api:1.0
+    container_name: pangan-api
+    restart: unless-stopped
+    depends_on:
+      mlflow-server:
+        condition: service_healthy
+    environment:
+      MLFLOW_TRACKING_URI: http://mlflow-server:5000
+      MODEL_URI: models:/model-harga-pangan-malang@production
+    volumes:
+      - ./data/processed:/app/data/processed:ro
+    ports:
+      - "8000:8000"
+    networks:
+      - ml-net
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+networks:
+  ml-net:
+    driver: bridge
+    name: pangan-ml-net
+
+volumes:
+  pg-data:
+    name: pangan-pg-data
+  mlflow-artifacts:
+    name: pangan-mlflow-artifacts

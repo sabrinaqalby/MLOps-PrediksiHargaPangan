@@ -1,0 +1,28 @@
+# Berkas yang tidak perlu ikut dikirim ke Docker saat membangun image.
+# Semakin sedikit isinya, semakin cepat proses build berjalan.
+
+.git
+.github
+.dvc
+.dvcignore
+.venv
+venv
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Data dan artefak tidak disalin ke dalam image. Data dipasang lewat
+# volume, sedangkan model ditarik dari Model Registry saat dibutuhkan.
+data/
+models/
+mlruns/
+mlartifacts/
+mlflow.db
+
+docs/
+notebooks/
+tests/
+*.md
+LICENSE
