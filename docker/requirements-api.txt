@@ -1,0 +1,10 @@
+# Dependensi layanan inferensi. Sengaja dipisah dari requirements.txt
+# proyek agar image API tidak ikut memuat dvc dan pytest yang hanya
+# dibutuhkan saat pengembangan.
+
+mlflow>=3.1,<4
+pandas>=2.2,<3
+numpy>=1.26
+scikit-learn>=1.5
+fastapi>=0.115
+uvicorn>=0.32

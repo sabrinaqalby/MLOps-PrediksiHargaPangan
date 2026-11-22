@@ -188,3 +188,58 @@ Dengan begitu pergantian versi model cukup dilakukan dengan memindahkan alias
 
 Metadata versi aktif tersimpan di `models/model_produksi.yaml`, dan artefak
 modelnya dilacak DVC lewat `models/model_produksi.dvc`.
+
+## Menjalankan Seluruh Sistem dengan Docker Compose
+
+Sistem terdiri dari tiga layanan yang dijalankan bersama dalam satu jaringan
+bridge bernama `pangan-ml-net`.
+
+| Layanan | Port | Keterangan |
+|---|---|---|
+| `postgres` | — | Database metadata MLflow, tidak dibuka ke luar |
+| `mlflow-server` | 5000 | Tracking server dan Model Registry |
+| `api-service` | 8000 | Layanan inferensi harga pangan |
+
+### Menjalankan
+
+    docker compose up -d --build
+    docker compose ps
+
+Urutan hidupnya diatur oleh `depends_on`: `api-service` baru dijalankan setelah
+`mlflow-server` dinyatakan sehat, dan `mlflow-server` menunggu `postgres` siap
+menerima koneksi.
+
+### Mengisi registry pada penggunaan pertama
+
+Registry masih kosong saat sistem baru pertama kali dijalankan. Latih satu model
+lalu tandai sebagai Production:
+
+    export MLFLOW_TRACKING_URI=http://localhost:5000
+    python src/train.py --n-estimators 500 --max-depth 4 \
+      --min-samples-leaf 5 --nama-run docker_v1 --daftarkan
+    python src/kelola_registry.py --versi 1 --tahap Production
+
+### Memakai layanan
+
+    curl http://localhost:8000/model
+    curl http://localhost:8000/prediksi
+    curl "http://localhost:8000/prediksi?komoditas=Cabai%20Rawit%20Merah"
+
+Dashboard MLflow dapat dibuka di `http://localhost:5000`, dan dokumentasi API
+otomatis di `http://localhost:8000/docs`.
+
+### Menghentikan
+
+    docker compose down
+
+Perintah itu menghapus kontainer, tetapi isi volume `pangan-pg-data` dan
+`pangan-mlflow-artifacts` tetap tersimpan, sehingga model yang sudah terdaftar
+masih ada ketika sistem dijalankan kembali. Tambahkan `-v` bila datanya memang
+ingin dihapus sekalian.
+
+### Catatan
+
+Model tidak ikut disalin ke dalam image `api-service`. Layanan menariknya dari
+Model Registry lewat alamat `http://mlflow-server:5000`, yaitu nama layanan di
+dalam jaringan Docker, bukan alamat IP. Pergantian versi model cukup dilakukan
+dengan memindahkan alias `production` di registry, tanpa membangun ulang image.
